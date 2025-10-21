@@ -24,7 +24,11 @@ export const Header = () => {
             <MobileMenu />
             <nav className="hidden md:flex items-center gap-6 text-black/80">
               {NAVIGATION_LINKS.map((link) => (
-                <a key={link.href} href={link.href} className="hover:text-black">
+                <a
+                  key={link.href}
+                  href={link.href}
+                  className="hover:text-black"
+                >
                   {link.label}
                 </a>
               ))}

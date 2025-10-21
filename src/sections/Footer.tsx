@@ -1,11 +1,10 @@
-import logo from '@/assets/logosaas.png';
-import SocialInstagram from '@/assets/social-insta.svg';
-import SocialLinkedin from '@/assets/social-linkedin.svg';
-import SocialPin from '@/assets/social-pin.svg';
-import SocialX from '@/assets/social-x.svg';
-import SocialYoutube from '@/assets/social-youtube.svg';
-import Image from 'next/image';
-import { NAVIGATION_LINKS, SOCIAL_LINKS } from '@/lib/constants';
+import logo from "@/assets/logosaas.png";
+import SocialInstagram from "@/assets/social-insta.svg";
+import SocialLinkedin from "@/assets/social-linkedin.svg";
+import SocialX from "@/assets/social-x.svg";
+import SocialYoutube from "@/assets/social-youtube.svg";
+import { NAVIGATION_LINKS, SOCIAL_LINKS } from "@/lib/constants";
+import Image from "next/image";
 
 export const Footer = () => {
   return (
